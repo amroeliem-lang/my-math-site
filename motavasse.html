@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متوسطه اول - ریاضی نهم | امروآموز</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html" class="home-btn">🏠 خانه</a>
+    </nav>
+
+    <div class="container">
+        <header class="exam-header">
+            <h1>🧮 امتحان نهایی ریاضی نهم</h1>
+            <p>۳۰ سوال + حل تشریحی کامل | نمره کل: ۲۰</p>
+        </header>
+
+        <!-- سوال ۱ -->
+        <div class="question-box">
+            <h3>سوال ۱ (۳ نمره)</h3>
+            <p>حل کنید: ( 2x^2 - 5x + 3 = 0 )</p>
+            <div class="answer">
+                <details>
+                    <summary>🔓 نمایش جواب</summary>
+                    <p><strong>جواب:</strong> ( x = 1 ) یا ( x = \frac{3}{2} )</p>
+                    <p>دلتا: ( (-5)^2 - 4 cdot 2 cdot 3 = 1 )</p>
+                    <p>( x = \frac{5 pm 1}{4} )</p>
+                </details>
+            </div>
+        </div>
+
+        <!-- سوال ۲ -->
+        <div class="question-box">
+            <h3>سوال ۲ (۲ نمره)</h3>
+            <p>اگر ( A = \begin{pmatrix} 1 & 2 \\ 3 & 4 end{pmatrix} ) دترمینان محاسبه کنید.</p>
+            <div class="answer">
+                <details>
+                    <summary>🔓 نمایش جواب</summary>
+                    <p><strong>جواب:</strong> ( det(A) = 1 cdot 4 - 2 cdot 3 = -2 )</p>
+                </details>
+            </div>
+        </div>
+
+        <!-- جدول نمرات -->
+        <div class="score-table">
+            <h3>📊 جدول نمره‌بندی</h3>
+            <table>
+                <tr><th>سوال</th><th>نمره</th></tr>
+                <tr><td>۱</td><td>۳</td></tr>
+                <tr><td>۲</td><td>۲</td></tr>
+                <tr><td colspan="2"><strong>جمع: ۲۰</strong></td></tr>
+            </table>
+        </div>
+
+        <div class="action-buttons">
+            <a href="index.html" class="back-btn">← بازگشت</a>
+            <a href="#" class="pdf-btn" onclick="downloadPDF()">📥 دانلود PDF</a>
+        </div>
+    </div>
+
+    <script>
+        function downloadPDF() {
+            alert("PDF در حال دانلود... (به زودی)");
+        }
+    </script>
+</body>
+</html>
